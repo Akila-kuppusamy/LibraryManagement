@@ -4,10 +4,10 @@ Library Management Case study
 
 Stack
 
-  H2
-  JPA
-  REST
-  React.js
+1. H2
+2. JPA
+3. REST
+4. React.js
 
 Local environment setup
 
@@ -15,13 +15,15 @@ Local environment setup
 
 2)Install IDE (Spring Tool Suite) 
 
-Launching the Application
+Launching the Application:
 
-Launch by typing: mvnw spring-boot:run
+1. Git clone the project.
+2. Open it with IDE.
+3. Run as SprintBoot Project.
 
 URL to hit : http://localhost:8080
 
-REST Calls
+REST Calls:
 
 http://localhost:8080/api/books
 http://localhost:8080/api/customers
@@ -32,6 +34,7 @@ http://localhost:8080/api/issues
 Modules:
 
 Library management consists of 4 modules.
+
 1) Book module give the details about book information like book name,author and isbn.
 
 2) Author module gives the details about author name,country and publication
